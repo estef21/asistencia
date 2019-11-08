@@ -1,0 +1,59 @@
+.hide{
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.4s ease-in;
+}
+
+.show{
+	position: relative;
+	opacity: 1;
+	pointer-events: auto;
+}
+.contenedor{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 500px;
+	height: 250px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px silver;
+	overflow: hidden;
+}
+
+.form{
+	width: 500%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+}
+
+.form input{
+	width: 90%;
+	height: 40px;
+}
+
+.mascara{
+	width: 1000px;
+	display: flex;
+	height: 250px;
+	align-items: center;
+	transition: transform 0.4s ease-in;
+}
+
+.form .button{
+	display: block;
+	width: 100px;
+	height: 30px;
+	background: green;
+	text-align: center;
+	line-height: 30px;
+	color:white;
+	border-radius: 5px;
+}
+
+.next{
+	transform: translateX(-500px);
+}
